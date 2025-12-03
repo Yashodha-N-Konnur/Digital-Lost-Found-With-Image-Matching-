@@ -1,11 +1,12 @@
-# Digital-Lost-Found-With-Image-Matching-
-# Digital Lost & Found - MVP
+# Lost and Found AI (Streamlit)
 
-Run:
-1. Activate venv: .\.venv\Scripts\activate
-2. Install: python -m pip install -r requirements.txt
-3. Run: streamlit run app.py
+A Streamlit application that allows users to upload images of lost or found items and store reports in CSV.
 
-Uploads stored: uploads/found/, uploads/lost/
-Reports saved: uploads/reports/
-Demo: upload found (left), then upload lost and Run Matching (right).
+## Features
+- Upload item images
+- Store and view lost/found reports
+- Simple CSV data management
+
+## Setup
+pip install -r requirements.txt
+streamlit run app.py
